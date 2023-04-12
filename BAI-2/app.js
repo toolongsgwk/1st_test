@@ -1,6 +1,5 @@
 function numberOneTriangle(n) {
   if (n < 1 || n > 10) {
-    document.write(`<div>Vui long nhap so tu 1 den 10</div>`);
     return;
   }
   for (let i = 1; i <= n; i++) {
@@ -12,4 +11,4 @@ function numberOneTriangle(n) {
   }
 }
 
-numberOneTriangle(5);
+numberOneTriangle(6);
