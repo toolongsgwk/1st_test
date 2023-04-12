@@ -11,7 +11,7 @@ body {
   padding: 100px;
 }
 
-.title {
+.big-header {
   font-size: 32px;
   display: block;
   font-weight: 900;
@@ -58,7 +58,7 @@ body {
   cursor: pointer;
 }
 
-.link-active {
+.link-special {
   background-color: #849fff;
   border-radius: 8px;
   color: white;
