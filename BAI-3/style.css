@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Poppins&display=swap');
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  padding: 100px;
+}
+
+.title {
+  font-size: 32px;
+  display: block;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.search-wrapper {
+  width: 327px;
+  height: 64px;
+  border: 1px solid #bfc8e6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+  margin-right: 16px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.menu-wrapper {
+  display: flex;
+}
+
+.link {
+  font-size: 16px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.link-active {
+  background-color: #849fff;
+  border-radius: 8px;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: 327px;
+  height: 208px;
+  background-color: #fbfcff;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+}
+
+.avatar {
+  width: 97px;
+  height: 97px;
+  margin-right: 16px;
+}
+
+.card-right {
+  padding-top: 20px;
+}
+
+.card-name {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.card-address {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #bfc8e6;
+  width: fit-content;
+}

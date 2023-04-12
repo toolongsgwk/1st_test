@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#button {
+  border: 1px solid black;
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+body {
+  display: grid;
+  justify-content: center;
+}
